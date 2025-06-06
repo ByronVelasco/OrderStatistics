@@ -78,4 +78,4 @@ print(quicksort_select(A, 4))
 # **Time Complexity**
 - Random Select: Average-case $O(n)$, worst-case $O(n^2)$ (rare).
 - Deterministic Select: Worst-case $O(n)$.
-- QuickSort Select: Average-case $O(n \log n)$, worst-case $O(n^2)$ (due to QuickSort's partitioning). This worst case can be avoided with the Randomized version of QuickSort, but it still remains less efficient than the dedicated selection algorithms for finding a single order statistic.
+- QuickSort Select: Average-case $O(n \lg n)$, worst-case $O(n^2)$ (due to QuickSort's partitioning). This worst case can be avoided with the Randomized version of QuickSort, but it still remains less efficient than the dedicated selection algorithms for finding a single order statistic.
